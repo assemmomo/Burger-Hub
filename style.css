@@ -26,7 +26,7 @@ html{
     --transparentColor--:#22222294;
 }
 body{
-    background-image: url(/imgs/bg3.jpg);
+    background-image: url(./imgs/bg3.jpg);
 }
 nav{
     position: fixed;
