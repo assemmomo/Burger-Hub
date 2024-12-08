@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Hub</title>
+    <link rel="icon" type="image/png" href="./imgs/logo.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="navLeft"><a class="loginDad" href="./assets/login.html"><div class="login">Login</div></a></div>
+        <div class="navMid">
+            <a class="navActive a" href="#sec1">Home</a>
+            <a class="a" href="#sec2">Menu</a>
+            <img class="navLogo" draggable="false" src="./imgs/logo.png" alt="Logo">
+            <a class="a" href="#">Category</a>
+            <a class="a" href="#sec4">Contact Us</a>
+        </div>
+        <div class="navRight">
+            <div class="cartBtnDad">
+                <i onclick="openCart()" class="fa-solid fa-cart-shopping cartBtn"></i>
+                <div class="cartNum">0</div>
+            </div>  
+        </div>
+    </nav>
+    <section class="sec1" id="sec1">
+        <img draggable="false" class="mainLogo" src="./imgs/logo.png" alt="page logo">
+        <img draggable="false" class="khas bgImgs" src="./imgs/5as.png" alt="">
+        <img draggable="false" class="felfel bgImgs" src="./imgs/felfel.png" alt="">
+        <img draggable="false" class="tomato bgImgs" src="./imgs/tomato.png" alt="">
+        <h1>SO MEATY YOU'LL GO CRAZY</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, animi dignissimos excepturi voluptates vero autem distinctio consequatur illum consectetur</p>
+       <a href="#sec3"><div class="menuBtn">MENU</div></a>
+    </section>
+    <section class="sec2" id="sec2">
+        <h1>OUR SERVICE</h1>
+        <div class="serviceDad">
+            <div>
+                <i class="fa-solid fa-burger"></i>
+                <h2>BEST QULITY</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum aliquid, quibusdam tempora optio, sit voluptate recusandae</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h2>GOOD PRICE</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum aliquid, quibusdam tempora optio, sit voluptate recusandae</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-motorcycle"></i>
+                <h2>FAST DELIVERY</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum aliquid, quibusdam tempora optio, sit voluptate recusandae</p>
+            </div>
+        </div>
+    </section>
+    <section class="sec3" id="sec3">
+        <h1>OUR MENU</h1>
+        <div class="menuDad">
+            <div class="menu">
+                <img class="img1" src="" alt="">
+                <h3>Fire Blaze</h3>
+                <h4>$45</h4>
+                <div class="btnsHolder">
+                    <div class="btn2 btn"><i class="fa-solid fa-heart"></i></i></div>
+                    <div class="btn1 btn click1"><i class="fa-solid fa-cart-shopping"></i><h4 class="cartH4">Add To Card</h4></div>
+                    <!-- <div class="btn3 btn"><i class="fa-solid fa-eye"></i></div> -->
+                </div>
+            </div>
+            <div class="menu">
+                <img class="img2" src="" alt="">
+                <h3>Cheesy Crunch</h3>
+                <h4>$34</h4>
+                <div class="btnsHolder">
+                    <div class="btn2 btn"><i class="fa-solid fa-heart"></i></i></div>
+                    <div class="btn1 btn click2"><i class="fa-solid fa-cart-shopping"></i><h4 class="cartH4">Add To Card</h4></div>
+                    <!-- <div class="btn3 btn"><i class="fa-solid fa-eye"></i></div> -->
+                </div>
+            </div>
+            <div class="menu">
+                <img class="img3" src="" alt="">
+                <h3>Green Crunch</h3>
+                <h4>$29</h4>
+                <div class="btnsHolder">
+                    <div class="btn2 btn"><i class="fa-solid fa-heart"></i></div>
+                    <div class="btn1 btn click3"><i class="fa-solid fa-cart-shopping"></i><h4 class="cartH4">Add To Card</h4></div>
+                    <!-- <div class="btn3 btn"><i class="fa-solid fa-eye"></i></div> -->
+                </div>
+            </div>
+            <div class="menu">
+                <img class="img4" src="" alt="">
+                <h3>Classic Bite</h3>
+                <h4>$30</h4>
+                <div class="btnsHolder">
+                    <div class="btn2 btn"><i class="fa-solid fa-heart"></i></div>
+                    <div class="btn1 btn click4"><i class="fa-solid fa-cart-shopping"></i><h4 class="cartH4">Add To Card</h4></div>
+                    <!-- <div class="btn3 btn"><i class="fa-solid fa-eye"></i></div> -->
+                </div>
+            </div>
+            <div class="menu">
+                <img class="img5" src="" alt="">
+                <h3>Tower Feast</h3>
+                <h4>$42</h4>
+                <div class="btnsHolder">
+                    <div class="btn2 btn"><i class="fa-solid fa-heart"></i></div>
+                    <div class="btn1 btn click5"><i class="fa-solid fa-cart-shopping"></i><h4 class="cartH4">Add To Card</h4></div>
+                    <!-- <div class="btn3 btn"><i class="fa-solid fa-eye"></i></div> -->
+                </div>
+            </div>
+            <div class="menu">
+                <img class="img6" src="" alt="">
+                <h3>Zesty Treat</h3>
+                <h4>$36</h4>
+                <div class="btnsHolder">
+                    <div class="btn2 btn"><i class="fa-solid fa-heart"></i></div>
+                    <div class="btn1 btn click6"><i class="fa-solid fa-cart-shopping"></i><h4 class="cartH4">Add To Card</h4></div>
+                    <!-- <div class="btn3 btn"><i class="fa-solid fa-eye"></i></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec4" id="sec4">
+        <h1>CONTACT US</h1>
+        <div class="sec4Dad">
+            <div class="contactDiv">
+                <div class="contacts">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                        <h2>ADDRESS:</h2>
+                        <p>ALEX , EGYPT</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                        <h2>EMAIL:</h2>
+                        <p>fightassem@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                        <h2>PHONE:</h2>
+                        <p>+1274421671</p>
+                    </div>
+                </div>
+                <div class="formDiv">
+                    <form action="">
+                        <input placeholder="full name" type="text">
+                        <input placeholder="email" type="text">
+                        <input placeholder="phone" type="text">
+                        <input class="messege" placeholder="messege" type="text">
+                        <input class="submit" type="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="contactLogo"><img src="./imgs/undraw_personal_text_re_vqj3.svg" alt=""></div>
+    </div>
+    <div class="map">
+        <iframe style="height: 100%; width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.1164824395496!2d30.003045523908675!3d31.27287305932737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5d1af30a10bb1%3A0x1909b621417d7db5!2z2KjYp9iy2YjZg9inINmB2LHYp9mK2K8g2KrYtNmK2YPZhg!5e0!3m2!1sar!2seg!4v1721495505476!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </section>
+    <section class="sec5" id="sec5">
+        <h1>YOUR CART</h1>
+        <div onclick="openCart();" class="backCard"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="cartDad">
+            <div class="foodCountDiv">
+                <!-- <div class="order">
+                        <img src="./imgs/burger (2).png" alt="">
+                        <h3>food4</h3>
+                        <p>$43</p>
+                        <input min="1" value="1" type="number">
+                        <i class="closeIcon fa-solid fa-xmark"></i>
+                </div> -->
+                <!-- <div class="order">
+                    <img src="./imgs/burger (2).png" alt="">
+                    <h3>food4</h3>
+                    <p>$43</p>
+                    <input min="1" value="1" type="number">
+                    <i class="closeIcon fa-solid fa-xmark"></i>
+                </div>
+                <div class="order">
+                    <img src="./imgs/burger (2).png" alt="">
+                    <h3>food4</h3>
+                    <p>$43</p>
+                    <input min="1" value="1" type="number">
+                    <i class="closeIcon fa-solid fa-xmark"></i>
+                </div>
+                <div class="order">
+                    <img src="./imgs/burger (2).png" alt="">
+                    <h3>food4</h3>
+                    <p>$43</p>
+                    <input min="1" value="1" type="number">
+                    <i class="closeIcon fa-solid fa-xmark"></i>
+                </div>
+                <div class="order">
+                    <img src="./imgs/burger (2).png" alt="">
+                    <h3>food4</h3>
+                    <p>$43</p>
+                    <input min="1" value="1" type="number">
+                    <i class="closeIcon fa-solid fa-xmark"></i>
+                </div> -->
+            </div>
+            <div class="buyDiv">
+                <div class="cartNav">
+                    <h1>Cart Datails</h1>
+                </div>
+                    <div class="cardType">
+                        <div class="visa cc"><i class="fa-brands ss fa-cc-visa"></i></div>
+                        <div class="visa"><i class="fa-brands ss fa-cc-mastercard"></i></div>
+                        <div class="visa"><i class="fa-brands ss fa-paypal"></i></div>
+                        <div class="visa"><i class="fa-solid ss fa-credit-card"></i></div>
+                    </div>
+                    <form action="#">
+                        <input placeholder="Write Number Card" type="text">
+                        <input placeholder="Write Name Card" type="text">
+                        <input type="date">
+                        <input placeholder="ccv" type="text">
+                        <input placeholder="Write Address" type="text">
+                    </form>
+                    <div class="sendOrder">
+                        <h4>Total Price:</h4>
+                        <h5>Count:</h5>
+                        <div>Send Order</div>
+                        <h1 class="totalPrice">0 $</h1>
+                        <h2 class="finalCount">0</h2>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="myLinks">
+            <a href="https://www.facebook.com/assem.mohamed.9699" target="_blank"><i class="fa-brands fa-facebook face"></i></a>
+            <a href="https://www.instagram.com/assem2035/" target="_blank"><i class="fa-brands fa-instagram face"></i></a>
+            <a href="https://www.linkedin.com/in/nitro-fn-a3b4a8294/" target="_blank"><i class="fa-brands fa-linkedin face"></i></a>
+            <a href="https://github.com/assemmomo" target="_blank"><i class="fa-brands fa-github face"></i></a>
+        </div>
+        <h4>Created By : Assem Mohamed</h5> 
+    </footer>
+    <div class="dots">
+        <a href="#sec1"><div class="dot"></div></a>
+        <a href="#sec3"><div class="dot"></div></a>
+        <a href="#sec4"><div class="dot"></div></a>
+        <a href="#footer"><div class="dot"></div></a>
+    </div>
+
+    <div class="alert">
+        <h2>The order has been added to the cart !</h2>
+    </div>
+
+    <div onclick="openCart()" class="hiddenCardBtn">
+        <div>0</div>
+        <i class="fa-solid fa-cart-shopping cartBtn"></i>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
